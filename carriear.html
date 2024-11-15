@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     #d1{background-color: rgb(224,224,224);
+width: 100%;}
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#d0{background-color: rgb(234, 241, 239);
+width:180px;
+height:30px;
+color:black;
+margin-top: -20px;
+font-weight: 5px;
+font-size: 12px;}
+#i1{width: 100px;
+height:80px;
+margin-left: 20px;}
+#d2{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 220px;
+margin-left: 130px;
+margin-top: -100px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d2:hover{background-color: rgb(250, 29, 103);}
+#d3{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 230px;
+margin-left: 340px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d3:hover{background-color: rgb(250, 29, 103);}
+#d4{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 230px;
+margin-left: 600px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d4:hover{background-color: rgb(250, 29, 103);}
+#d5{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 210px;
+margin-left: 840px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d5:hover{background-color: rgb(250, 29, 103);}
+#d6{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 210px;
+margin-left: 1070px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d6:hover{background-color: rgb(250, 29, 103);}
+#i3{margin-left: 1270px;}
+#i4{width: 100%;
+height: 850px;
+margin-top:-50px ;}
+#h1{font-size: 50px;
+text-align: left;
+margin-top: 100px;
+margin-left: 50px;}
+#p1{margin-left: 50px;
+font-size: 25px;}
+#i5{height: 400px;
+width:250px;
+margin-left:950px;
+margin-top: -200px;}
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+margin-top: -580px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height:300px;
+  width: 350px;
+  border-radius: 8px;
+  column-gap: 30px;
+
+}
+#h2{font-size: 35px;
+color: white;
+text-align: center;
+margin-top: -450px;}
+#h3{font-size: 30px;
+  margin-top: 10px;
+}
+#p2{font-size: large;
+  margin-right: 20px;
+  margin-left: 20px;
+margin-top: -5px;
+text-align: justify;}
+#h4{font-size: 30px;
+  margin-top: 10px;
+}
+#p3{font-size: large;
+  margin-right: 20px;
+  margin-left: 20px;
+margin-top: -5px;
+text-align: justify;}
+#h5{font-size: 30px;
+  margin-top: 10px;
+}
+#p4{font-size: large;
+  margin-right: 20px;
+  margin-left: 20px;
+margin-top: -5px;
+text-align: justify;}
+#h6{margin-top: 650px;
+font-size: 40px;
+text-align: center;}
+#i9{width: 100px;
+height: 100px;}
+#h7{margin-left: 70px;
+font-size: 25px;
+margin-top: -50px;
+}
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius: 8px;
+  margin-left: 50px;
+  box-shadow: 10px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display:none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+#h8{font-size: 25px;
+margin-top: -50px;
+margin-left: 80px;}
+#i10{width: 100px;
+height: 100px;}
+#h9{font-size: 25px;
+margin-top: -50px;
+margin-left: 80px;}
+#i11{width: 100px;
+height: 100px;}
+#i12{width: 100px;
+height: 100px;}
+#h10{font-size: 25px;
+margin-top: -50px;
+margin-left: 80px;}
+#i13{width: 100px;
+height: 100px;}
+#h11{font-size: 35px;
+margin-top: -1020px;
+text-align: center;
+margin-left: 80px;}
+#i14{margin-top:50px;
+width: 100%;
+height: 1200px;
+}
+#h12{font-size:larger;
+  margin-top: -10px;
+text-align: center;
+}
+#i15{width: 70px;
+height: 70px;
+margin-bottom:970px ;
+margin-left: 450px;
+margin-top: -1200px;}
+#d7{width:350px;
+height:250px;
+background-color:red;
+margin-left: 50px;
+margin-top:-350px ;}
+.grid-container2 {
+  display: grid;
+  height: 200px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+margin-top: 300px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.grid-container2 > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height:200px;
+  width: 450px;
+  border-radius: 8px;
+  column-gap:50px;
+
+}
+#p5{font-size: large;
+margin-top: -40px;
+text-align: justify;
+margin-left: 20px;
+margin-right: 50px;}
+#h13{text-align: center;
+font-size:30px ;
+margin-top: 400px;
+}
+#p6{font-size: large;
+text-align: center;}
+.button{background-color: yellow;
+  align-items: center;
+color: black;
+font-weight: 20px;}
+
+#d39{height: 400px;
+    width:250px;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align:left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: 100px;
+    box-shadow: 20px;}
+    #d40{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left:350px;
+    text-align: left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d41{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left: 650px;
+    text-align: left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d42{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left: 950px;
+    text-align:left;
+    padding: 25px;
+    background-color: none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d43{background-color: rgb(134, 140, 226);}
+    #h22{color: black;
+    font-size: 20px;
+    text-align: left;
+margin-top: 170px;
+margin-left: -10px;
+margin-right: -300px;}
+    #h23{color: black;
+    font-size: 20px;
+    margin-left: 540px;
+    margin-top: -50px;
+    margin-right: -1000px;
+    }
+    
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li  {
+  display:inline-block;
+  padding: 8px;
+  
+}
+#dd{display:inline-block;}
+
+
+
+</style>
+<body>
+    <div id="d1">
+        <a href="www.softlogicsys.in"><img id="i1" src="sla gray.png" ></a><div id="d0"><b>EASY WAY FOR IT JOB</b></div>
+    <a href="www.softlogicsys.in"><img id="i3" style="position: fixed;" src="quick enquiry.png"></a>
+    <div id="d2">
+    FOR <b>IT JOBS AND TRAINING</b></div>
+    <div id="d3">
+    100% LIFETIME SUPPORT <b>SLA PLACEMENTS</b></div>
+    <div id="d4">
+    LOOKING FOR TRAINED <b>IT PROFESSIONALS</b></div>
+    <div id="d5">
+    SUBMIT YOUR CV <b>JOB SEEKERS</b></div>
+    <div id="d6">
+    WANT TO WORK WITH US? <b>CAREERS AT SLA</b>
+    </div>  <h1 id="h1">With a<b style="color: red;">Career at SLA</b><br>
+        Let Us Grow Together</h1>
+        <p id="p1">At Softlogic Systems, we transform individuals into highly skilled tech professionals</p><img id="i5" src="carrier img.jpeg">
+        <img id="i4" src="red bc.png">
+
+   <div class="grid-container">
+    <div id="grid-item"><img id="i6" src="work.jpeg"><h4 id="h3">Our Work Environment</h4><p id="p2">You become a part of a culture of trust, cooperation, and accessibility when you work for Softlogic. You join a team that is bringing about change in the technology industry by assisting students worldwide in developing into fully qualified professionals for MNCs and tech giants.</p></div>
+    <div id="grid-item"><img id="i7" src="core.jpeg"><h4 id="h4">Our Core Values</h4><p id="p3">Dedication towards the achievement of each learner. The top software training provider in Chennai is Softlogic, which has been in business for almost 20 years. Every learner’s job, lifestyle, and overall community can be improved by opening their eyes to new possibilities and developing technologies.</p></div>
+    <div id="grid-item"><img id="i8" src="qualities.jpeg"><h4 id="h5">Our Distinct Qualities</h4><p id="p4">We are distinctive due to our workforce. Every trainer from every field of technology who is eager to learn anything has plenty to contribute to our experiences. Join us for exploring the ecstasy of empowering people for a competitive future.</p></div>
+   </div>        <h2 id="h2">Benefits and Perks</h2></div>
+<h2 id="h6">Current Open Roles</h2>
+<img id="i9" src="corners.png"><h3 id="h7">Become An Instructor</h3>
+<button type="button" class="collapsible">Data Science Trainer (ML, AI, Python, Power BI, Tableau, Hadoop, R)</button>
+<div class="content">
+  <p>ROLE
+    Data Science Trainer/ ML Trainer, AI Trainer, Power BI Trainer, Hadoop Trainer, R Programming Trainer, Tableau Trainer
+    EXPERIENCE REQUIRED
+    5 to 8 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Responsible for planning, creating, and executing timely sessions for the data science training program.
+    Create course materials, case studies, mini-projects, assignments, and evaluations following the data science training program.
+    Update the management about the performance of learners.
+    Constant monitoring of the student’s progress and upkeep of the necessary content
+    Must keep up with changes in the entire data science field.
+    REQUIRED KEY SKILLS
+    Have proficiency in Tableau, Python, R, Deep Learning, Artificial Intelligence, Power BI, ML, Big Data Hadoop, or other data science tools.
+    Solid mathematical grounding in optimization, linear algebra, and statistics
+    Experience as a data science trainer of at least three to four years. (When properly referred to)
+    The applicant must be a graduate. Graduate students may also apply.
+    Excellent interpersonal skills; able to connect with and inspire the students about career advancements. Effective communication and presenting skills</p>
+</div>
+<button type="button" class="collapsible">Web Designing Trainer (HTML, CSS, JavaScript, Angular, React, Node, MEAN, Full Stack)</button>
+<div class="content"><p>ROLE
+  Web Designing Trainer
+  EXPERIENCE REQUIRED
+  2 - 7 Years
+  LOCATION
+  Chennai
+  JOB DESCRIPTION
+  Learners in training are instructed and coached through practical exercises, case studies, problem-solving, assignments, capstone projects, etc.
+  Consider the Training Needs, Create study materials using case studies, and run technical web pages.
+  Bring in actual project use case scenarios so that participants may gain real-time experience.
+  Assess participant progress through tests, exams, assignments, etc.
+  REQUIRED KEY SKILLS
+  HTML, CSS, and other web technologies
+  JavaScript (AngularJS, ReactJS, ExpressJS, and NodeJS)
+  PHP, SQL, MongoDB, and other backend technologies
+  Python, Java, and other programming languages
+  Expertise in MEAN Stack and Full Stack Web Designing
+  Knowledge of WordPress is an added advantage</p></div>
+  <button type="button" class="collapsible">Trainer Cloud Computing Technologies (AWS, Azure, Salesforce, DevOps, VMWare)  </button>
+  <div class="content"><p>ROLE
+    Cloud Technology Trainer/ AWS Trainer, Azure Trainer, Salesforce Trainer, DevOps Trainer, VMWare Trainer
+    EXPERIENCE REQUIRED
+    5+ Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Teaching a few courses while adhering to the learning objectives and the session plans that Softlogic Systems have supplied.
+    Utilizing methods that are known to be effective for professionals, such as employing tech tools, instructional best practices, and integrating curriculum into the real world by providing industry insights and practical knowledge.
+    Personalize the help given to students during working hours and mentorship sessions.
+    To update and assess our course, we are closely collaborating with the content and solutions teams.
+    REQUIRED KEY SKILLS
+    A solid understanding of AWS, Azure, GCP, Salesforce, VMWare, DevOps
+    Thorough knowledge of the architectural concepts and features of Amazon Web Services (AWS), Azure, VMWare, and Salesforce
+    A passion for learning and the capacity to communicate intricate technical ideas
+    Excellent communication skills
+    Associate/Professional certification of any cloud computing technology</p></div>
+    <button type="button" class="collapsible">Technical Trainer – Programming Languages (Java, Python, .Net, R, Matlab)  </button>
+  <div class="content"><p>ROLE
+    Java Trainer, Python Trainer, Dot Net Trainer, Matlab Trainer, C/C++ Trainer, R, PHP.
+    EXPERIENCE REQUIRED
+    1 - 3 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Create technical training programs for organizational needs.
+    Make training agendas and schedules for the classroom.
+    Determine the course’s objectives and course content
+    Create training materials, such as worksheets and presentations.
+    Execute training sessions, webinars, workshops, and other activities in teams or alone.
+    When necessary, arrange for and carry out on-site training. Observe and assess the outcomes of training initiatives.
+    Using knowledge and experience gained through time, develop training scenarios that apply to real-world situations.
+    Analyze program effectiveness overall and make adjustments.
+    REQUIRED KEY SKILLS
+    Have expertise in an object-oriented programming language.
+    Technical trainer with a performance record
+    Have updated knowledge of the latest versions of Java, Python, PHP, Matlab, DotNet, or R.
+    Have expertise in technologies such as Servlets, JDBC, Web application development, Spring Boot, Hibernate, SQL, HTML, Javascript, ReactJS, JQuery, CSS, Python Frameworks, etc.
+    The ideal candidate should be familiar with OOPS, JSON, Jquery, and JavaScript and have experience working with Python-based online apps.
+    Experience in desktop and web application development.
+    Knowledge of teaching methods.</p></div>
+    <button type="button" class="collapsible">DB Application Trainers (Oracle SQL, Oracle PL/SQL, MongoDB, SQL Server, VBA Macros, Advanced Excel)  </button>
+  <div class="content"><p>ROLE
+    Database Application Trainer, Oracle SQL Trainer, MongoDB Trainer, SQL Server Trainer, VBA Trainer, Microsoft Excel Trainer.
+    EXPERIENCE REQUIRED
+    2 to 5 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Preparing materials and undertaking exercises for a variety of database-related courses.
+    Engaging students in lab and workshop sessions
+    Configuring systems and tools for hands-on practices
+    Real-time implementation of projects
+    Monitoring each learner’s performance record
+    Respond to students’ questions.
+    Should continue to provide high-quality instruction to keep learners satisfied.
+    Organize with the administrative and marketing teams.
+    REQUIRED KEY SKILLS
+    Expertise in Oracle SQL, Oracle PL/SQL, SQL Server, MongoDB, advanced Excel, VBA Macros, and other DB applications.
+    Updated knowledge of the latest updates of all DB applications.
+    Desire to mentor and guide the one-on-one session as well as corporate learners
+    Experience in handling both classroom and virtual mode of classes
+    Excellent communication skills
+    Student-friendly mindset</p></div>
+    <button type="button" class="collapsible">IT Trainer (A+, N+, CCNA, MCSE, MCSA, Linux, Embedded, IoT)  </button>
+  <div class="content"><p>ROLE
+    Hardware and Networking Trainer, A+/N+ Trainer, CCNA Trainer, MCSE Trainer, MCSA Trainer, Linux Trainer, Embedded Trainer, IoT Trainer.
+    EXPERIENCE REQUIRED
+    3 - 7 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Train learners on all Infrastructure-related tools and certifications that include A+, N+, CCNA, MCSE, MCSA, IoT, Embedded, and Linux.
+    Instruct IT best practices and user-friendly IT tools used for all learners.
+    Work on training modules while being aware of the present IT infrastructure and application footprint.
+    Create a roadmap for the scheduled training.
+    Establish training modules and ensure the understanding of learners with case studies, assessments, and hands-on sessions.
+    Create a training calendar, start implementing it, and prepare training materials as well as instruct learners who will attend training soon.
+    REQUIRED KEY SKILLS
+    Have updated knowledge in IT tools and certifications such as IoT, Embedded, A+, N+, and CCNA. MCSE, MCSA, or Linux.
+    Relevant certification is a must.
+    Deep understanding of networking protocols, Windows Server, TCP/IP model, LAN, WAN, Switching, Firewalls, VPNs, Routing, and other hardware and networking concepts.
+    The capacity to multitask, prioritize, and efficiently manage time
+    Ability to manage a variety of training formats and learner levels
+    Highly organized and detail-oriented
+    Highly motivated and driven to see students excel
+    Flexible and enthusiastic about training</p></div>
+    <button type="button" class="collapsible">Software Testing Trainer (Manual Testing, Automation – Selenium, API, LoadRunner, JMeter, Appium, ETL, QTP)  </button>
+  <div class="content"><p>ROLE
+    Software Testing Trainer, Selenium Trainer, Automation Testing Trainer
+    EXPERIENCE REQUIRED
+    5 - 7 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Should be well-versed in both manual and automation software testing
+    Keep up with the most recent methods used in the software testing industry.
+    Able to get students ready to work on real projects.
+    Enhancing student knowledge and preparing them for interview success.
+    REQUIRED KEY SKILLS
+    Master in Manual testing, Selenium-Java, SQL, ISTQB, and practical knowledge
+    Have proficiency in Software Testing tools like API, ETL, QTP, LoadRunner, JMeter, etc.
+    The applicant should be well-versed in communication.
+    It should be possible for them to manage end-to-end content preparation, material preparation, interview questions, mock interviews, live project explanations, etc. Should have prior classroom and virtual training experience.</p></div>
+    <button type="button" class="collapsible">Digital Marketing Trainer (SEO Trainer, SMO Trainer) </button>
+  <div class="content"><p>ROLE
+    SEO Trainer, SMO Trainer
+    EXPERIENCE REQUIRED
+    3 - 7 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Experienced in SEO and PPC Google Analytics, Google Ad Words, Social Media Marketing, Video Marketing, etc.
+    Able to clearly and simply convey concepts in digital marketing.
+    Digital marketing lesson plans to be planned and prepared for training sessions.
+    Handle student questions or doubt sessions.
+    Ability to design and develop course materials that are required for training
+    Experience in executing lead generation efforts, internet marketing, and advertising promotions.
+    Should be familiar with digital marketing technologies.
+    REQUIRED KEY SKILLS
+    Expertise in Facebook marketing, Lead generation, SEO, Digital marketing, and Instagram marketing
+    Experience in all web, SEO/SEM, database marketing, email, social media, and display advertising strategies, including planning and implementing them.
+    Ability to plan, create, and maintain a social media presence.
+    Have the ability to identify trends and insights and enhance performance and speed based on the insights.
+    Updated knowledge of the cutting-edge technologies
+    Excellent Communication Skills
+    </p></div>
+    <button type="button" class="collapsible">Android Trainer / iOS Trainer </button>
+  <div class="content"><p>ROLE
+    Android Trainer, iOS Trainer
+    EXPERIENCE REQUIRED
+    2 - 5 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Delivering lectures on time and running tutorials and training sessions for mobile app platforms like Android and iOS as scheduled.
+    Implement internal exams to determine whether students have a good understanding of the subject.
+    Design and implementation of course materials for both in-person instruction and online learning with the subject matter.
+    Check the curriculum updates, course designs, and requirements against the technological standards set by the mobile app development industry.
+    Create Android applications for training purposes and as proof of concept.
+    Make sure the program is delivered in accordance with the previously agreed guidelines and/or the learners’ expectations of learning results.
+    REQUIRED KEY SKILLS
+    Expertise in UI Development, Android Applications, iOS Applications, Android SDK, Java, Kotlin, HTML5, CSS3, JSON, RESTful Apps, Web Technologies, iOS, Swift, etc
+    Excellent communication skills
+    Proven experience in mobile app development</p></div>
+    <button type="button" class="collapsible">RPA Trainer </button>
+  <div class="content"><p>ROLE
+    RPA Trainer/Blue Prism Trainer/UiPath Trainer/AA Trainer
+    EXPERIENCE REQUIRED
+    5 to 7 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Instruct students about RPA Tools like Automation Anywhere, Blue Prism, UiPath, etc. Consult with other managers and trainers.
+    Make, give out, and schedule classes.
+    Share study resources and training requirements.
+    Keep a database with all of the study materials.
+    Make materials, techniques, and efforts for training.
+    Review the progress of the student’s learning.
+    Conduct classes in a variety of formats, including online and offline.
+    Find out where students are weak and help them.
+    REQUIRED KEY SKILLS
+    Excellent technical expertise with automation tools
+    Expertise in programming languages like Java, C++, and C#.
+    Working experience with RPA tools such as AA, Power Automate, Blue Prism, UiPath, etc.
+    Excellent Communication Skills</p></div>
+    <button type="button" class="collapsible">Graphic Designing </button>
+  <div class="content"><p>ROLE
+    Graphic Designing
+    EXPERIENCE REQUIRED
+    0 - 2 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Create hand-drawn or computer-generated visual designs to convey ideas that motivate, educate, or attract viewers.
+    Create the general layout and production design for ads, social media posts, brand development, brochures, publications, and corporate reports.
+    Motion graphics are improved by editing raw video footage and adding effects and components.
+    To produce motion graphics, conduct research and analysis on the best design approaches and solutions.
+    Help with the design and production of management storyboards.
+    Make visuals that brand a product or communicate a message.
+    Create graphics for banners, logos, websites, social media posts, product illustrations, and so on.
+    Choose your text style, color scheme, and layout impressively.
+    REQUIRED KEY SKILLS
+    Adobe Photoshop
+    Adobe Illustrator
+    Graphic Designer
+    Motion Graphics
+    AfterEffects by Adobe
+    </p></div>
+    <img id="i10" src="corners.png">
+    <h3 id="h8">Sales</h3>
+    <button type="button" class="collapsible">Business Development Executive</button>
+  <div class="content"><p>ROLE
+    Business Development Executive
+    EXPERIENCE REQUIRED
+    1 - 3 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Experience providing worldwide learners with IT training, certification, and career services.
+    Leveraging expertise in international marketing, particularly in Tamil Nadu, to attract leads from all over India.
+    Building a database of prospective students for cold calling.
+    Prepare and deliver presentations and coursework that are specifically catered to the career goals of the students.
+    Prospecting, spotting fresh chances and leads, and producing sales for the business.
+    Must possess strong presentation, promoting, and report writing skills.
+    REQUIRED KEY SKILLS
+    Strong skills of intellect, determination, executive presence, and sales proficiency for Softlogic Systems’ IT training services.
+    Outstanding oral and written and presentational skills.
+    The capacity to create and deliver successful presentations over the phone to kids and their parents.
+    Understanding of the entire sales process, from prospecting to closing.
+    Understanding of how to manage a geographical area to achieve quota goals.</p></div>
+  <button type="button" class="collapsible">Career Counsellor / Telecaller </button>
+  <div class="content"><p>ROLE
+    Career Counselor/Telecaller
+    EXPERIENCE REQUIRED
+    1 - 3 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Understanding the needs of the students and assisting them in selecting the appropriate IT course following their career objectives
+    Recommending various IT courses to the students depending on demand, educational background, and market scope
+    Educating students about the advantages and offers that Softlogic gives along with each course.
+    Verify student information and assist them in navigating the application portal.
+    REQUIRED KEY SKILLS
+    Excellent communication skills
+    Tamil and English proficiency is a must.
+    Additional benefits include the ability to speak Hindi, Telugu, Malayalam, and Kannada.
+    Being able to convince students and assist them with all of their questions</p></div>
+    <button type="button" class="collapsible">Center Manager / Branch Manager </button>
+  <div class="content"><p>ROLE
+    Center Manager/Branch Manager
+    EXPERIENCE REQUIRED
+    5 - 7 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Accountable for the business outputs needed to increase sales and meet objectives
+    Arranging and managing daily tasks and activities managing front desk tasks
+    Cooperate well with the center’s team, which consists of SEOs, salespeople, trainers, and a placement team.
+    Ensuring that the placement team and trainers adhere to the established best practices
+    Coordinating all facilities-related problems for the students with the relevant department
+    Keeping an eye on and upholding excellent service and satisfaction standards.
+    Maintaining consistent accounting records and ensuring that all payments and collections from students are deposited in banks.
+    Managing demands for repairs and other needs/issues at the center
+    Work honestly to achieve the organization’s goals.
+    REQUIRED KEY SKILLS
+    Strong attitude and experience in sales and customer service
+    Strong language communication abilities, including in Tamil, English, Hindi, Malayalam, Kannada, and Telugu
+    Excel and MS Office proficiency.
+    Able to help the center achieve monthly goals
+    Strong counseling and convincing skills
+    Openness to lifelong learning and development
+    The capacity to function as a team
+    Be willing to accept occasional location changes</p></div>
+    <img id="i11" src="corners.png">
+    <h4 id="h9">Product and Technology</h4>
+    <button type="button" class="collapsible">Junior Software Developer </button>
+  <div class="content"><p>ROLE
+    Junior Software Developer
+    EXPERIENCE REQUIRED
+    1 - 5 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Create and maintain reliable APIs and backend systems for our web apps.
+    Work with cross-functional teams to plan, put new features into action, and test them.
+    Work on both individual and group projects, producing top-notch code by the deadline.
+    Participate in code reviews and offer helpful criticism to colleagues.
+    Ensure the performance, security, and scalability of backend applications.
+    Projects should be deployed on servers, and configurations should be managed.
+    Debug and fix problems that the QA and support teams have reported.
+    Maintain current with the newest business trends and technologies by always picking up new knowledge.
+    REQUIRED KEY SKILLS
+    Computer science bachelor’s degree or relevant work experience 1.5- 5 years
+    Expertise in any of the programming languages listed below
+    Python, Java, and JavaScript
+    NET Framework with.NET Core
+    Entity Framework Core C#, XML/XSD5, MVC,
+    RESTful Web API with ASP.NET Core 3.1 or higher
+    Node.js and PHP
+    Databases like PostgreSQL, MongoDB, and MySQL.
+    Experience working on both team-based and individual initiatives, with at least three projects completed.
+    The ability to handle server configurations and deploy programs on servers.
+    Strong analytical and detail-oriented problem-solving abilities.
+    Proven aptitude for meeting deadlines and working well under stress.
+    Excellent interpersonal and teamwork abilities.</p></div>
+    <button type="button" class="collapsible">WordPress Developer </button>
+    <div class="content"><p>ROLE
+      WordPress Developer
+      EXPERIENCE REQUIRED
+      1 - 6 Years
+      LOCATION
+      Chennai
+      JOB DESCRIPTION
+      Creating and assisting with WordPress websites
+      Making unique themes and plugins
+      WordPress website migration from other platforms
+      WPML, WooCommerce, Membership, and other plugin integration and setup.
+      WordPress page speed optimization
+      Best practices for SEO and CRO implementation on WordPress sites
+      Pixel-perfect display layer HTML5/CSS3 templates from complex PSD layouts
+      Experience in designing responsive websites
+      Working under deadline pressure
+      Taking care of several projects at once
+      Producing excellent work with significant attention to detail
+      REQUIRED KEY SKILLS
+      Strong WordPress platform knowledge
+      Understanding of creating custom WordPress themes and plugins
+      Knowledge of integrating WordPress plugins (such as WooCommerce, WPML, and membership plugins)
+      Knowledge of HTML5, CSS3, JavaScript, and PHP, as well as MySQL and AJAX
+      Working with the LAMP development environment
+      Comprehensive knowledge of browser compatibility problems
+      Strong familiarity with responsive web design methods
+      Knowledge of the W3C’s Web Standards, Semantics, and Accessibility Guidelines</p></div>
+      <button type="button" class="collapsible"> PHP Developer</button>
+  <div class="content"><p>ROLE
+    PHP Developer
+    EXPERIENCE REQUIRED
+    2 - 3 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Deep understanding of PHP, CodeIgniter, HTML5, CSS3, MySQL, Jquery, and Javascript.
+    Having a thorough understanding of PHP and MySQL.
+    An added advantage would be Magento.
+    Excellent practical experience developing web applications
+    Building new projects, analyzing and taking ownership of current projects to make improvements to ensure stability,
+    Developing strong new features to sit on top of and completely integrate with the existing system will be a responsibility.
+    REQUIRED KEY SKILLS
+    Experience with MySQL 5.x and PHP 5.x
+    Experience building RESTful APIs Knowledge of the Symfony Framework
+    jQuery, design patterns, and JavaScript MV* framework expertise
+    Experience with HTML and CSS Experience with Web APIs and dealing with third-party APIs Experience with version control and Git Linux experience is an asset
+    Knowing Unix shell scripts is advantageous.
+    An asset is previous knowledge of website localization.</p></div>
+    <button type="button" class="collapsible"> Android Developer</button>
+  <div class="content"><p>ROLE
+    Android Developer
+    EXPERIENCE REQUIRED
+    2 - 5 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Should be very knowledgeable about developing Android applications and Java.
+    Should have practical familiarity with Android’s fundamental capabilities, including UI design and layout.
+    Should Have Practical Experience Integrating REST API, SQLite, Payment Gateway, and GPS Map.
+    Should have practical experience publishing apps.
+    Must have a solid understanding of the technology best practices that the agile development process should adhere to.
+    An advantage would be having practical knowledge of IT training operations
+    REQUIRED KEY SKILLS
+    2+ years of UI and Java experience developing Android applications.
+    1 year of MVVM and Kotlin experience.
+    Data structures, algorithms, and problem-solving skills should be very strong.
+    Deep understanding of the OOPS concept and proficiency in Core Java programming.
+    Experience creating apps using the Android SDK, Java/Kotlin, RxJava/Coroutine, and the offline first strategy (understanding SQLite, MySQL, or comparable database management).
+    Knowledge of the Room, LiveData, ViewModel, and MVVM Android architecture components.
+    Expertise in how to integrate RESTful web services.
+    Understanding of Firebase and Google Play services.
+    Familiarity with code versioning systems like GitHub and Bitbucket.</p></div>
+    <button type="button" class="collapsible">Java Developer</button>
+  <div class="content"><p>ROLE
+    Java Developer/Software Developer/Software Engineer
+    EXPERIENCE REQUIRED
+    2 - 5 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Work with the development team and product managers to comprehend and specify needs.
+    To guarantee that software satisfies criteria and fits into the overall architecture, create design documentation.
+    Feature prototypes when appropriate
+    Create the application utilizing industry standards for design.
+    Communicate issues and status both verbally and in writing as soon as possible.
+    REQUIRED KEY SKILLS
+    Core Java application programming experience of 5 years or more.
+    Solid familiarity with web technologies, such as Java Servlets, JSP, MVC, and AJAX; Experience in architectural design.
+    Object-oriented analysis and design skills.
+    Strong skills in HTML5, CSS3, JavaScript, and jQuery
+    Understanding of front-end technologies such as VU.js, Angular.js, and react.js
+    Familiarity with Java frameworks such as Spring, Hibernate, etc.
+    Understanding of Apache, Tomcat, or another web server.</p></div>
+    <button type="button" class="collapsible">DotNet Developer </button>
+  <div class="content"><p>ROLE
+    Dot Net Developer/Software Developer
+    EXPERIENCE REQUIRED
+    3 to 6 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    The right candidate will be in charge of creating new software products and improving current apps.
+    Create unit testing scripts and uphold excellent code standards.
+    Proficiency in HTML, CSS, JavaScript, C#, and.Net
+    REQUIRED KEY SKILLS
+    Expertise in the whole lifecycle of software development projects using C#, ADO.NET, ASP.NET, and.NET 4.0 and above.
+    Proficiency in creating RESTful web services and Web APIs.
+    Experience in HTML, CSS, and AJAX client-side programming
+    Familiarity with Javascript frameworks like jQuery, AngularJS, and jQuery Mobile.
+    SQL Server programming expertise and a solid database design.
+    Good programming, object-oriented design, and design pattern experience.
+    Good analytical, debugging, and problem-solving abilities are a must.
+    Good communication skills</p></div>
+    <img id="i12" src="corners.png">
+    <h3 id="h9">Marketing</h3>
+    <button type="button" class="collapsible">Content Writer</button>
+  <div class="content"><p>ROLE
+    Content Writer
+    EXPERIENCE REQUIRED
+    2+ Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Create original content by conducting thorough research on issues that are pertinent to your sector (combining web sources, studies, etc.)
+    One of the main duties is to comprehend the request and create material that is aligned with the intended audience.
+    producing articles for websites, blogs, podcasts, presentations, etc.
+    Collaborating with the marketing team to provide content for marketing
+    Putting up ideas for, modifying, and updating current content on services, offerings, etc.
+    Attracting the interest of the intended audience with interesting and engaging material
+    Understanding the topic’s tone and creating original material
+    Create concise texts using the provided content for social media.
+    REQUIRED KEY SKILLS
+    Strong English writing skills with the capacity to develop key conceptual issues, produce marketing collateral, and modify for social media-specific formats.
+    Must have at least two years of professional expertise and marketing experience working in the technology, design, and consulting industries.
+    Good project management and design abilities.
+    Good industry knowledge of technology (software items).
+    Must possess strong research and analytical abilities.
+    Strong proficiency with Google Workspace (Google Docs, Google Sheets) and Microsoft (Word, Excel, PowerPoint).</p></div>
+    <button type="button" class="collapsible">Digital Marketing Trainee</button>
+    <div class="content"><p>    ROLE
+Digital Marketing Trainee
+EXPERIENCE REQUIRED
+0 - 1 Year
+LOCATION
+Chennai
+JOB DESCRIPTION
+Monitor the website’s traffic flow and periodically deliver internal reports.
+Optimize content for the website and social networking sites like Facebook, Twitter, and Instagram.
+Create and manage online marketing initiatives on platforms like Facebook, Instagram, LinkedIn, and others that are appropriate.
+Analyze clients in diverse industries both on- and off-site.
+Create reports on performance using tools like Google Analytics Participate in the company blog to help with both on- and off-page optimization.
+Produce, edit, and publish material for websites, including audio, video, and podcasts.
+Promote the company’s goods and services online.
+Create and carry out marketing campaigns using SMS and email.
+Use the digital marketing team to run campaigns and get the outcomes you want.
+Assign tasks and monitor progress to the Digital Marketing Team’s main KPIs.
+REQUIRED KEY SKILLS
+Website management (WordPress) includes creating or editing web pages, monitoring websites, and updating images and testimonials.
+Understanding how to use internet tools like Photoshop to make photos.
+Fresh and imaginative thinking that aligns with the web marketing needs of our services.
+HTML coding knowledge and experience are added advantages.
+Knowing how to create infographics, videos for YouTube, and infographics is advantageous.</p></div>
+<button type="button" class="collapsible">Front Office Executive(FOE)</button>
+<div class="content"><p>ROLE
+Front Office Executive
+EXPERIENCE REQUIRED
+0 - 2 Years
+LOCATION
+Chennai
+JOB DESCRIPTION
+Respond to inquiries from learners and other visitors and inform them about the company’s training services.
+Respond quickly and efficiently to learners’ complaints or concerns, ensuring resolution or escalation as required.
+As required, offer support and assistance to other departments.
+REQUIRED KEY SKILLS
+Demonstrated proficiency in a front desk or customer service position.
+Excellent interpersonal and communication abilities, with a warm and professional attitude.
+Strong time-management and organizational skills.
+Familiarity with Microsoft Office Suite or other basic office programs.
+Ability to efficiently multitask and balance various priorities.
+The capacity to remain composed under pressure and strong problem-solving skills.
+When providing client service, pay close attention to detail and correctness.</p></div>
+<button type="button" class="collapsible">SEO Analyst</button>
+<div class="content"><p>
+ROLE
+SEO Analyst
+EXPERIENCE REQUIRED
+5+ Years
+LOCATION
+Chennai
+JOB DESCRIPTION
+Create and implement effective SEO strategies
+Recognize client KPIs and adjust campaigns as necessary
+Complete onsite and offshore SEO chores with a high level of quality.
+Effectively determine a client’s organic performance
+For impact visibility, one must have a good understanding of Google’s algorithms.
+Continue to expand your SEO knowledge while keeping your campaigns active.
+Research keywords to help content teams
+Examine technical SEO problems and provide fixes.
+Optimize landing pages, sponsored search copy, and website content.
+Projects directly related to off-page optimization, such link building
+Work with the PPC and social media teams to improve campaigns.
+Follow developments in SEO and integrated marketing
+REQUIRED KEY SKILLS
+Experience in a position as a manager of SEO, SEM, or a related position
+Understanding of accepted and modern SEO techniques
+Understanding of HTML/CSS and WordPress
+Knowledge of SEO reporting
+Knowledge of the necessary SEO tools
+Excellent interpersonal skills
+Strong management and leadership skills
+Calculative and analytical mindset</p></div>
+<button type="button" class="collapsible">Digital Marketing Executive</button>
+<div class="content"><p>
+ROLE
+Digital Marketing Executive
+EXPERIENCE REQUIRED
+3-5 Years
+LOCATION
+Chennai
+JOB DESCRIPTION
+Email, social media, SEO/SEM, and display advertising campaigns are just a few of the digital marketing tactics that should be planned and executed.
+Creating, establishing, and sustaining our social media presence
+Determine patterns and insights, then adjust spending and output based on the insights.
+Plan innovative and imaginative growth methods
+Working along with internal departments, develop landing pages that improve user experience.
+Optimize user pathways and use conversion points
+Work with the goals and targets of organizations
+Analyze cutting-edge technologies and upskill them regularly.
+REQUIRED KEY SKILLS
+Significant professional experience in digital marketing
+The performance record of successfully managing SEO/SEM, email, social media, and/or display advertising campaigns.
+Incredibly creative and skilled at creating digital campaigns that inspire, inform, and engage
+Understanding of landing page optimization and user funnels.
+Understanding how to create and enhance Google Adwords campaigns
+Working expertise with JavaScript, WordPress CSS, and HTML development
+Sound analytical skills and a data-driven mindset
+Stay current with the best practices and the latest developments in online marketing.
+Working knowledge of the technologies for ad-serving tools</p></div>
+    <img id="i13" src="corners.png">
+    <h3 id="h10">Designing</h3>
+    <button type="button" class="collapsible">Graphic Designing</button>
+  <div class="content"><p>ROLE
+    Graphic Designing
+    EXPERIENCE REQUIRED
+    0 - 2 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Create hand-drawn or computer-generated visual designs to convey ideas that motivate, educate, or attract viewers.
+    Create the general layout and production design for ads, social media posts, brand development, brochures, publications, and corporate reports.
+    Motion graphics are improved by editing raw video footage and adding effects and components.
+    To produce motion graphics, conduct research and analysis on the best design approaches and solutions.
+    Help with the design and production of management storyboards.
+    Make visuals that brand a product or communicate a message.
+    Create graphics for banners, logos, websites, social media posts, product illustrations, and so on.
+    Choose your text style, color scheme, and layout impressively.
+    REQUIRED KEY SKILLS
+    Adobe Photoshop
+    Adobe Illustrator
+    Graphic Designer
+    Motion Graphics
+    AfterEffects by Adobe</p></div>
+  <button type="button" class="collapsible">Web Designing</button>
+  <div class="content"><p>ROLE
+    Web Designer
+    EXPERIENCE REQUIRED
+    0 - 2 Years
+    LOCATION
+    Chennai
+    JOB DESCRIPTION
+    Expertise as a web designer with proven experience
+    A good portfolio and demonstrable aptitude for graphic design
+    Mastery of graphic design and wire-framing software, such as Photoshop and Illustrator.
+    Knowledge of HTML5, CSS 3, JavaScript, and jQuery for quick prototyping.
+    The capacity to think creatively and efficiently solve difficulties.
+    Knowledgeable about the most recent Web trends, strategies, and technology.
+    REQUIRED KEY SKILLS
+    Familiarity with WordPress
+    Understanding of WooCommerce and other eCommerce platforms
+    Knowledge of PHP, Javascript, HTML, and CSS
+    Expertise in fundamental SEO and performance guidelines
+    Google Analytics knowledge
+    A thorough understanding of modern online standards, usability, and site design</p></div>
+  
+<img id="i14" src="gray bg.png"><img id="i15" src="corners with gray.png"><h2 id="h11">Our Recruitment Process</h2>
+<div class="grid-container2">
+  <div id="grid-item2"><img id="i16" src="screen.jpeg"><h4 id="h12">Screening and Shortlisting  </h4><p id="p5">At SLA, our HR professionals screen applications based on candidates’ qualifications, certifications, hands-on skills, subject-matter expertise, and interpersonal skills.  </p></div>
+  <div id="grid-item2"><img id="i17" src="apti.jpeg"><h4 id="h12">Aptitude Round  </h4><p id="p5">This phase will assess the candidate’s technical expertise and English proficiency. There are 20–30 MCQs in this round, and you have the allotted time to complete them.  </p></div><br>
+  <div id="grid-item2"><img id="i18" src="technical.jpeg"><h4 id="h12">Technical Round  </h4><p id="p5">Face-to-face interview to assess a candidate’s technical aptitude for the role, such as coding skills for trainers, digital marketing acumen for sales and SEO applicants, etc.  </p></div>
+  <div id="grid-item2"><img id="i19" src="hr.jpeg"><h4 id="h12">HR Interview  </h4><p id="p5">One of our HR Managers will evaluate candidates in the last round to assess the candidates’ communication skills, soft skills, positive attitude, and confidence level.
+  </p></div></div>
+  <h2 id="h13">We would love to reshape your future career  </h2>
+  <p id="p6">Take a glance at our open positions, find your ideal job, and apply  </p>
+  <button style="font-size: larger;background-color: yellow;border-radius: 8px;margin-left: 500px;height:50px;width: 300px;"><b>Apply Now</b></button>
+</div>
+<div id="d43">
+  <div id="d39"><img id="i59" src="sla logooo.jfif"><br><b>Softlogic Academy</b>
+      <b>Softlogic Systems</b><br>
+      KK Nagar [Corporate Office]<br>
+      No.10, PT Rajan Salai, K.K. Nagar, Chennai – 600 078.<br>
+     <b>Landmark:</b> Karnataka Bank Building<br>
+      <b>Phone:</b> <a href="www.softlogicsys.in">+91 86818 84318</a><br>
+      <b>Email:</b><a href="www.softlogicsys.in">enquiry@softlogicsys.in</a><br>
+      <b>Map:</b> <a href="www.softlogicsys.in">Google Maps Link</a><br>
+      <b>OMR</b>
+      No. E1-A10, RTS Food Street<br>
+      92, Rajiv Gandhi Salai (OMR),<br>
+      Navalur, Chennai - 600 130.<br>
+      <b>Landmark:</b> Adj. to AGS Cinemas<br>
+      <b>Phone:</b><a href="www.softlogicsys.in">+91 89256 88858<br>
+      <b>Email:</b><a href="www.softlogicsys.in">info@softlogicsys.in</a><br>
+      <b>Map:</b><a href="www.softlogicsys.in"> Google Maps Link</a></div>
+  <div id="d40">
+     <b> Navigation</b><br>
+  <a href="www.softlogicsys.in">About Us</a><br>
+  <a href="www.softlogicsys.in">Blog Posts</a><br>
+  <a href="www.softlogicsys.in">Careers</a><br>
+  <a href="www.softlogicsys.in">Contact</a><br>
+  <a href="www.softlogicsys.in">Placement Training</a><br>
+  <a href="www.softlogicsys.in">Corporate Training</a><br>
+  <a href="www.softlogicsys.in">Hire With Us</a><br>
+  <a href="www.softlogicsys.in">Job Seekers</a><br>
+  <a href="www.softlogicsys.in">SLA’s Recently Placed Students</a><br>
+  <a href="www.softlogicsys.in">Reviews</a><br>
+  <a href="www.softlogicsys.in">Sitemap</a><br>
+  <b>Important Links</b><br>
+  <a href="www.softlogicsys.in">Disclaimer</a><br>
+  <a href="www.softlogicsys.in">Privacy Policy</a><br>
+  <a href="www.softlogicsys.in">Terms and Conditions</a><br>
+  </div>
+  <div id="d41">
+    <b>  Courses</b>
+    <a href="www.softlogicsys.in">Python</a><br>
+      <a href="www.softlogicsys.in">Software Testing</a><br>
+          <a href="www.softlogicsys.in">Full Stack Developer</a><br>
+              <a href="www.softlogicsys.in">Java</a><br>
+                  <a href="www.softlogicsys.in">Power BI</a><br>
+                      <a href="www.softlogicsys.in">Clinical SAS</a><br>
+                          <a href="www.softlogicsys.in">Data Science</a><br>
+                              <a href="www.softlogicsys.in">Embedded</a><br>
+                                  <a href="www.softlogicsys.in">Cloud Computing</a><br>
+                                      <a href="www.softlogicsys.in">Hardware and Networking</a><br>
+                                          <a href="www.softlogicsys.in">VBA Macros</a><br>
+                                              <a href="www.softlogicsys.in">Mobile App Development</a><br>
+                                                  <a href="www.softlogicsys.in">DevOps</a>
+  </div>
+  <div id="d42">
+     <b> Review Sources</b><br>
+     <a href="www.softlogicsys.in">Google</a><br>
+      <a href="www.softlogicsys.in">Trustpilot</a><br>
+          <a href="www.softlogicsys.in">Glassdoor</a><br>
+              <a href="www.softlogicsys.in">Mouthshut</a><br>
+                  <a href="www.softlogicsys.in">Sulekha</a><br>
+                      <a href="www.softlogicsys.in">Justdial</a><br>
+                          <a href="www.softlogicsys.in">Ambitionbox</a><br>
+                              <a href="www.softlogicsys.in">Indeed</a><br>
+                                  <a href="www.softlogicsys.in">Software Suggest</a><br>
+                                      <a href="www.softlogicsys.in">Sitejabber</a><br>
+  </div>
+  <h4 id="h22" style="background-color: black;color: white;">Copyright © 2024 - Softlogic Systems. All Rights Reserved</h4>
+  <h4 id="h23" style="background-color: black;color: white;">SLA™ is a trademark of Softlogic Systems, Chennai. Unauthorised use prohibited.</h4>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
