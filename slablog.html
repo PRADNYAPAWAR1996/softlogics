@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d1{background-color: rgb(224,224,224);
+width: 100%;}
+
+#d0{background-color: rgb(234, 241, 239);
+width:180px;
+height:30px;
+color:black;
+margin-top: -20px;
+font-weight: 5px;
+font-size: 12px;}
+#i1{width: 100px;
+height:80px;
+margin-left: 20px;}
+#d2{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 220px;
+margin-left: 130px;
+margin-top: -100px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d2:hover{background-color: rgb(250, 29, 103);}
+#d3{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 230px;
+margin-left: 340px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d3:hover{background-color: rgb(250, 29, 103);}
+#d4{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 230px;
+margin-left: 600px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d4:hover{background-color: rgb(250, 29, 103);}
+#d5{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 210px;
+margin-left: 840px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d5:hover{background-color: rgb(250, 29, 103);}
+#d6{
+border-color: black;
+border-radius: 8px;
+box-shadow: 10px;
+height: 30px;
+width: 210px;
+margin-left: 1070px;
+margin-top: -60px;
+text-align: center;
+padding: 15px;
+font-size: larger;}
+#d6:hover{background-color: rgb(250, 29, 103);}
+#i3{margin-left: 1270px;}
+#h1{font-size: 40px;
+margin-left: 50px;
+margin-top: 80px;}
+#p1{font-size: 25px;
+margin-left: 50px;}
+#i4{height: 50px;
+width: 50px;
+margin-left: 450px;
+margin-top: -80px;
+margin-bottom: 80px;}
+#h2{text-align: center;
+font-size: 40px;
+margin-top:80px;
+}
+#d7{ background-color: rgb(234, 241, 239);
+height: 300px;}
+.grid-container {
+  display: grid;
+  column-gap: -400px;
+  grid-template-columns: auto auto auto;
+border-radius: 8px;
+  padding: 10px;
+  row-gap: 100px;
+  box-shadow: 10px;
+}
+
+.grid-item {
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  border-radius: 8px;
+  width:300px;
+  height: 250px;
+  row-gap: 100px;
+  text-align: center;}
+  .grid-item:hover{width: 350px;
+height:300px;}
+.sub-grid{ background-color: rgba(212, 206, 206, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  height: 100px;
+  border-radius: 8px;
+  row-gap: 100px;
+  text-align: center;}
+
+  #d38{height: 40px;
+    width:300px;
+    font-size: 20px;
+    margin-left: 450px;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(240, 209, 34);
+    color:black;
+    border:solid;
+    border-radius:8px;
+    margin-top: 50px;
+    box-shadow: 20px;}  
+    #d39{height: 400px;
+    width:250px;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align:left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: 100px;
+    box-shadow: 20px;}
+    #d40{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left:350px;
+    text-align: left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d41{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left: 650px;
+    text-align: left;
+    padding: 25px;
+    background-color:none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d42{height: 400px;
+    width:200px;
+    font-size: 20px;
+    margin-left: 950px;
+    text-align:left;
+    padding: 25px;
+    background-color: none;
+    color:black;
+    margin-top: -460px;
+    box-shadow: 20px;}
+    #d43{background-color: rgb(134, 140, 226);}
+    #h22{color: black;
+    font-size: 20px;
+    text-align: left;
+margin-top: 170px;
+margin-left: -10px;
+margin-right: -300px;}
+    #h23{color: black;
+    font-size: 20px;
+    margin-left: 540px;
+    margin-top: -50px;
+    margin-right: -1000px;
+    }
+    .flex-container {
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.flex-container > div {
+  background-color:tomato;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+<body>
+    <div id="d1">
+    <a href="www.softlogicsys.in"><img id="i1" src="sla gray.png" ></a><div id="d0"><b>EASY WAY FOR IT JOB</b></div>
+<a href="www.softlogicsys.in"><img id="i3" style="position: fixed;" src="quick enquiry.png"></a>
+<div id="d2">
+FOR <b>IT JOBS AND TRAINING</b></div>
+<div id="d3">
+100% LIFETIME SUPPORT <b>SLA PLACEMENTS</b></div>
+<div id="d4">
+LOOKING FOR TRAINED <b>IT PROFESSIONALS</b></div>
+<div id="d5">
+SUBMIT YOUR CV <b>JOB SEEKERS</b></div>
+<div id="d6">
+WANT TO WORK WITH US? <b>CAREERS AT SLA</b>
+</div>
+<h2 id="h1">The SLA Blog</h2>
+<p id="p1">Interview Questions, Tips to land your dream job, How-tos and so much more</p>
+<div id="d7">
+<h2 id="h2">Featured Articles</h2><img id="i4" src="corners with green.png"></div>
+</div>
+<div class="grid-container">
+  <a href="www.softlogicsys.in"><div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png" style="margin-top: 40px;margin-left: 200px;"> </div>Digital Marketing Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 16, 2024.
+<br>Understanding digital marketing enables one to comprehend how a firm or business  </p></div></a>
+<a href="www.softlogicsys.in">  <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>DevOps Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 16, 2024.<br>
+  To overcome these obstacles, DevOps promotes integration, cooperation, and communication between the development</p></div></a>
+  <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Deep Learning Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 10, 2024.<br>Deep learning is one of the methods of machine learning that extracts</p></div></a>
+    <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Warehousing Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 9, 2024<br>Data from several different sources is integrated to create a data warehouse. In this data warehouse tutorial,</p></div></a>
+      <a href="www.softlogicsys.in">  <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Science with R Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 9, 2024<br>R is an interactive environment for data science work, not </p></div></a>
+        <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Science with Python Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 9, 2024<br>Data scientists are using Python as a programming language extensively</p></div></a>
+          <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Science with Machine learning Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 9, 2024<br>Computers can learn without explicit programming because of machine learning. </p></div></a>
+            <a href="www.softlogicsys.in">  <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Science Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 9, 2024<br>Combining statistics, data analysis, and machine learning, data science </p></div></a>
+              <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Data Analytics Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 8, 2024<br>Organizations can use data analytics to mine raw data for valuable </p></div></a>
+                <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Tutorials for the Beginners<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 7, 2024<br>The language used to style and improve HTML documents is  </p></div></a>
+                  <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Core Java Tutorials For Beginners<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 7, 2024<br>Core Java provides the fundamental components needed to create Java</p></div></a>
+                    <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Cloud Computing Tutorials <br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 7, 2024<br>Delivering IT resources using a pay-as-you-go paradigm is known as cloud computing</p></div></a>
+                      <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>Clinical SAS Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 3, 2024<br>In the clinical research sector, there is an increasing need for experts with SAS proficiency.</p></div></a>
+                        <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>CCNA Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 2, 2024<br>An IT certification for networking entry-level is the Cisco Certified Network Associate.</p></div></a>
+                          <a href="www.softlogicsys.in"> <div class="grid-item"><div class="sub-grid"><img id="i5" src="One.png"style="margin-top: 40px;margin-left: 200px;"></div>C Sharp Tutorial<br><p id="p1" style="font-size: large;color: black;margin-left: -20px;">Published On: August 1, 2024<br>The most widely used language for the free, open-source, cross-platform.</p></div></a></div>
+                          <div class="flex-container">
+                            <div>1</div>
+                            <div>2</div>
+                            <div>3</div> 
+                         <div>4</div>
+                         <div>5</div></div>
+                          <div id="d43">
+                            <div id="d39"><img id="i59" src="sla logooo.jfif"><br><b>Softlogic Academy</b>
+                                <b>Softlogic Systems</b><br>
+                                KK Nagar [Corporate Office]<br>
+                                No.10, PT Rajan Salai, K.K. Nagar, Chennai – 600 078.<br>
+                               <b>Landmark:</b> Karnataka Bank Building<br>
+                                <b>Phone:</b> <a href="www.softlogicsys.in">+91 86818 84318</a><br>
+                                <b>Email:</b><a href="www.softlogicsys.in">enquiry@softlogicsys.in</a><br>
+                                <b>Map:</b> <a href="www.softlogicsys.in">Google Maps Link</a><br>
+                                <b>OMR</b>
+                                No. E1-A10, RTS Food Street<br>
+                                92, Rajiv Gandhi Salai (OMR),<br>
+                                Navalur, Chennai - 600 130.<br>
+                                <b>Landmark:</b> Adj. to AGS Cinemas<br>
+                                <b>Phone:</b><a href="www.softlogicsys.in">+91 89256 88858<br>
+                                <b>Email:</b><a href="www.softlogicsys.in">info@softlogicsys.in</a><br>
+                                <b>Map:</b><a href="www.softlogicsys.in"> Google Maps Link</a></div>
+                            <div id="d40">
+                               <b> Navigation</b><br>
+                            <a href="www.softlogicsys.in">About Us</a><br>
+                            <a href="www.softlogicsys.in">Blog Posts</a><br>
+                            <a href="www.softlogicsys.in">Careers</a><br>
+                            <a href="www.softlogicsys.in">Contact</a><br>
+                            <a href="www.softlogicsys.in">Placement Training</a><br>
+                            <a href="www.softlogicsys.in">Corporate Training</a><br>
+                            <a href="www.softlogicsys.in">Hire With Us</a><br>
+                            <a href="www.softlogicsys.in">Job Seekers</a><br>
+                            <a href="www.softlogicsys.in">SLA’s Recently Placed Students</a><br>
+                            <a href="www.softlogicsys.in">Reviews</a><br>
+                            <a href="www.softlogicsys.in">Sitemap</a><br>
+                            <b>Important Links</b><br>
+                            <a href="www.softlogicsys.in">Disclaimer</a><br>
+                            <a href="www.softlogicsys.in">Privacy Policy</a><br>
+                            <a href="www.softlogicsys.in">Terms and Conditions</a><br>
+                            </div>
+                            <div id="d41">
+                              <b>  Courses</b>
+                              <a href="www.softlogicsys.in">Python</a><br>
+                                <a href="www.softlogicsys.in">Software Testing</a><br>
+                                    <a href="www.softlogicsys.in">Full Stack Developer</a><br>
+                                        <a href="www.softlogicsys.in">Java</a><br>
+                                            <a href="www.softlogicsys.in">Power BI</a><br>
+                                                <a href="www.softlogicsys.in">Clinical SAS</a><br>
+                                                    <a href="www.softlogicsys.in">Data Science</a><br>
+                                                        <a href="www.softlogicsys.in">Embedded</a><br>
+                                                            <a href="www.softlogicsys.in">Cloud Computing</a><br>
+                                                                <a href="www.softlogicsys.in">Hardware and Networking</a><br>
+                                                                    <a href="www.softlogicsys.in">VBA Macros</a><br>
+                                                                        <a href="www.softlogicsys.in">Mobile App Development</a><br>
+                                                                            <a href="www.softlogicsys.in">DevOps</a>
+                            </div>
+                            <div id="d42">
+                               <b> Review Sources</b><br>
+                               <a href="www.softlogicsys.in">Google</a><br>
+                                <a href="www.softlogicsys.in">Trustpilot</a><br>
+                                    <a href="www.softlogicsys.in">Glassdoor</a><br>
+                                        <a href="www.softlogicsys.in">Mouthshut</a><br>
+                                            <a href="www.softlogicsys.in">Sulekha</a><br>
+                                                <a href="www.softlogicsys.in">Justdial</a><br>
+                                                    <a href="www.softlogicsys.in">Ambitionbox</a><br>
+                                                        <a href="www.softlogicsys.in">Indeed</a><br>
+                                                            <a href="www.softlogicsys.in">Software Suggest</a><br>
+                                                                <a href="www.softlogicsys.in">Sitejabber</a><br>
+                            </div>
+                            <h4 id="h22" style="background-color: black;color: white;">Copyright © 2024 - Softlogic Systems. All Rights Reserved</h4>
+                            <h4 id="h23" style="background-color: black;color: white;">SLA™ is a trademark of Softlogic Systems, Chennai. Unauthorised use prohibited.</h4>
+                            </div>
+
+                        </body>
+</html>
